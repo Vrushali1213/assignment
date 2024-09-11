@@ -1,0 +1,96 @@
+name: jobportal
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.4.0
+  google_sign_in: ^6.2.1
+  firebase_auth: ^5.2.0
+  get: ^4.6.6
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: RobotoBlack
+      fonts:
+        - asset: assets/font/Roboto-Black.ttf
+
+    - family: RobotoBlackItalic
+      fonts:
+        - asset: assets/font/Roboto-BlackItalic.ttf
+
+    - family: RobotoBold
+      fonts:
+        - asset: assets/font/Roboto-Bold.ttf
+
+    - family: RobotoBoldItalic
+      fonts:
+        - asset: assets/font/Roboto-BoldItalic.ttf
+
+    - family: RobotoItalic
+      fonts:
+        - asset: assets/font/Roboto-Italic.ttf
+
+    - family: RobotoLight
+      fonts:
+        - asset: assets/font/Roboto-Light.ttf
+
+    - family: RobotoLightItalic
+      fonts:
+        - asset: assets/font/Roboto-LightItalic.ttf
+
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/font/Roboto-Medium.ttf
+
+    - family: RobotoMediumItalic
+      fonts:
+        - asset: assets/font/Roboto-MediumItalic.ttf
+
+    - family: RobotoRegular
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+
+    - family: RobotoThin
+      fonts:
+        - asset: assets/font/Roboto-Thin.ttf
+
+    - family: RobotoThinItalic
+      fonts:
+        - asset: assets/font/Roboto-ThinItalic.ttf
+
+    - family: PlayfairDisplayRegular
+      fonts:
+        - asset: assets/font/PlayfairDisplay-Regular.ttf
+
+    - family: PlayfairDisplayMedium
+      fonts:
+        - asset: assets/font/PlayfairDisplay-Medium.ttf
+
+    - family: PlayfairDisplayBold
+      fonts:
+        - asset: assets/font/PlayfairDisplay-Bold.ttf
